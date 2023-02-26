@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export paloittelu (lista suuruuksia){
+    luodaan palat
+    varitetaan annetun listan mukaan
+    }
+
+blocker(){
+    
+    alustetaan renkaan ymparys kulma 
+    alustetaan palojen lista
+    etsitaan Root elementti css globaalia muuttujaa varten 
+    maaritetaan palan koko
+    asetetaan palan koko globaaliksi css muuttujaksi
+    alustetaan i muuttuja, jolla maaritetaan kulman kerroin
+    
+    while loop, joka pyorii kun ympyrassa on viela jaljella seuraavalle kulmalle tilaa
+        luodaan renkaan pala
+        lisataan siihen block luokan tyylit
+        pyoritetaan sita (360/n)* kierrokset verran
+        listataan se kelloon
+        lisataan se pala listaan
+        vahennetaan renkaassa jaljella olevaa kulmaa
+        merkataan ylos yksi lisaa menneita kierroksia
+    }
+    palautetaan lista paloista
+}
+
+borderSizeCalculator(partAmount){
+palauttaa blockin borderin koon pixeleina, lasketaan tietamalla ympyran sade
+}
+
+degreePeerBlock(n){
+palauttaa asteina kulman yksittaiselle kolmiolle n palaisessa ympyrassa
+}
+
+blockColorer(blocks,parts){
+    kay palalistan jokaisen elementin lavitse seuraavasti
+        startN=ensimmainen block joka varitetaan ympyrassa
+        endN=ensimmainen block numero joka jatetaan varittamatta
+        jokaiselle blokille valilla startN, endN(eksklusiivinen)
+            varitetaan block kyseiseen valiin kuuluvalla varilla
+}
+            
+
+
+
+
+
+
+Ongelmat loppuun 
+Kolmioiden skaalautuminen ikkunan mukaan 
+selvita taydellinen jako matemaattisesti 

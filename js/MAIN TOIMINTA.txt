@@ -1,0 +1,20 @@
+MAIN TOIMINTA 
+valmista google liikunta data oletetusta kuukaudesta 
+valmista activityWatch hereilla-olo data oletetusta kuukaudesta 
+
+tyosta sivu datalla, jossa oletusarvona on joulukuun 6 
+
+kuuntele asetettua paivamaaraa, ja mikali kuukausi muuttuu, valmista uudelleen data
+tyosta sivu uuden paivamaaran datalla. 
+
+
+
+
+TAMAN FILEN TOIMINTA 
+
+
+
+
+
+LOPUSSA
+lisaa kelloon 00:00,06:00,12:00,18:00 leimat

@@ -1,0 +1,16 @@
+valmistelu(){
+    valmistetaan liikkumisdata
+    valmistetaan kannykkadata
+    valmistetaan spotifyData
+    return res
+}
+parseGoogleData(){
+This code appears to be a JavaScript function that fetches data from a JSON file called 2022_SEPTEMBER.json, processes the data, and then logs the processed data to the console.
+
+The function uses the fetch() method to retrieve the JSON file from a specified URL, which in this case is ./data/2022_SEPTEMBER.json. This method returns a Promise that resolves to a Response object, which can be parsed as JSON using the .json() method.
+
+Once the JSON data is parsed, the function creates two variables, activitySegments and activityObjects, which are populated with data processed from the JSON file. It then logs the first element of the activitySegments array to the console using console.log(). the function returns the activityObjects array.
+
+The activitySegments array contains objects that represent the user’s activity during the day. Each object contains a start and end time, as well as a type of activity. The activityObjects array contains objects that represent the user’s activity during the day. Each object contains a start and end time, as well as a type of activity.
+
+activityObjects array contains objects that represent the user’s activity during the day. Each object contains a start and end time, as well as a type of activity, and a color that represents the type of activity.
